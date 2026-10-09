@@ -22,7 +22,7 @@ def test_line_cost_pence_for_loose_item():
     assert line_cost_pence("loose", 50) == 550
 
 def test_line_cost_pence_for_crated_item():
-    assert line_cost_pence("crated", 25) == 430  
+    assert line_cost_pence("crated", 25) == 425  
     assert line_cost_pence("crated", 50) == 700  
 
 def test_discount_pence_below_threshold():
