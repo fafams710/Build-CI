@@ -1,0 +1,13 @@
+# destination, packing, weight_kg
+north,   crated, 120
+south,   loose,   40
+east,    crated, 310
+west,    crated,  75
+north,   loose,   12
+south,   crated, 250
+east,    loose,   95
+west,    loose,  180
+north,   crated,  25
+south,   loose,   60
+east,    crated,  33
+west,    crated, 410

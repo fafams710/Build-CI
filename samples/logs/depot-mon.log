@@ -1,0 +1,6 @@
+INFO  depot opened
+INFO  van 1 loaded
+WARN  van 2 late
+INFO  van 2 loaded
+ERROR crate 88 damaged
+INFO  depot closed
