@@ -142,4 +142,4 @@ def test_sweep_sorts_filenames(tmp_path, capsys):
     (tmp_path / "fri.log").write_text("INFO fri\n")
     sweep(str(tmp_path))
     out = capsys.readouterr().out
-    assert out.index("thu.log") < out.index("fri.log")
+    assert out.index("fri.log") < out.index("thu.log")
